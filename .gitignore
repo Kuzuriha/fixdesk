@@ -1,0 +1,38 @@
+# ---- Java / Maven ----
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- IDE ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# ---- 本地配置与密钥（重要）----
+application-local.yml
+application-local.yaml
+application-local.properties
+.env
+*.pem
+*.key
+secrets/
+
+# ---- 运行时产物 ----
+logs/
+*.log
+*.hprof
+hs_err_pid*.log
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
